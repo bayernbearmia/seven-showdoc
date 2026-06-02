@@ -1,0 +1,26 @@
+{
+  "name": "seven-showdoc",
+  "version": "0.1.0",
+  "description": "Auto-generate ShowDoc API documentation from code comments — zero dependencies, cross-platform Bash script",
+  "keywords": ["showdoc", "documentation", "api", "bash", "shell", "comments", "docs-generator", "showdoc-api", "auto-docs"],
+  "homepage": "https://github.com/bayernbearmia/seven-showdoc",
+  "bugs": {
+    "url": "https://github.com/bayernbearmia/seven-showdoc/issues"
+  },
+  "license": "MIT",
+  "author": "BayernBearMia",
+  "bin": {
+    "seven-showdoc": "./showdoc_api.sh",
+    "showdoc": "./showdoc_api.sh"
+  },
+  "files": [
+    "showdoc_api.sh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayernbearmia/seven-showdoc.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
